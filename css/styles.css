@@ -174,7 +174,7 @@ body {
 .stuff-list-title {
 	font-weight: 500;
 	font-size: 16px;
-	line-height: 1.19px;
+	line-height: 1.19;
 	text-align: center;
 	letter-spacing: 0.03em;
 	color: var(--primary-color);
@@ -183,9 +183,10 @@ body {
 .stuff-list-position {
 	font-weight: 400;
 	font-size: 16px;
-	line-height: 1.19px;
+	line-height: 1.19;
 	text-align: center;
 	letter-spacing: 0.03em;
+	color: var(--secondary-color);
 }
 
 /* -----FOOTER------ */
@@ -215,10 +216,12 @@ body {
 	color: var(--minor-color);
 }
 
+.address {
+	font-style: normal;
+}
+
 .address-street {
 	font-family: inherit;
-	font-style: normal;
-	font-weight: 400;
 	font-size: 14px;
 	line-height: 1.71;
 	letter-spacing: 0.03em;
@@ -227,8 +230,6 @@ body {
 
 .address-item {
 	font-family: inherit;
-	font-style: normal;
-	font-weight: 400;
 	font-size: 14px;
 	line-height: 1.71;
 	letter-spacing: 0.03em;
